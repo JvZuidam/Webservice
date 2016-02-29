@@ -16,5 +16,29 @@ namespace WinFormClient
         {
             InitializeComponent();
         }
+
+        private void BtnAddLg_Click(object sender, EventArgs e)
+        {
+            var showForm = new addLog();
+            showForm.ShowDialog();
+        }
+
+        private void BtnVwLg_Click(object sender, EventArgs e)
+        {
+            var showForm = new viewLog();
+            showForm.ShowDialog();
+        }
+
+        private void BtnEdtLg_Click(object sender, EventArgs e)
+        {
+            var showForm = new editLog();
+            showForm.ShowDialog();
+        }
+
+        private void BtnDelLg_Click(object sender, EventArgs e)
+        {
+            var showForm = new deleteLog();
+            showForm.ShowDialog();
+        }
     }
 }
