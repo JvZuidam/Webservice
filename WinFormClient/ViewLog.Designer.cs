@@ -40,6 +40,7 @@
             this.BtnView.TabIndex = 0;
             this.BtnView.Text = "View log";
             this.BtnView.UseVisualStyleBackColor = true;
+            this.BtnView.Click += new System.EventHandler(this.BtnView_Click);
             // 
             // LstBxView
             // 

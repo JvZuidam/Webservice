@@ -68,6 +68,7 @@
             this.BtnAdd.TabIndex = 4;
             this.BtnAdd.Text = "Submit";
             this.BtnAdd.UseVisualStyleBackColor = true;
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // TxtBoxLog
             // 
